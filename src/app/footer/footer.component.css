@@ -1,0 +1,79 @@
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(172, 210, 240);
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-cont {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+.footer-logo-div {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+.footer-logo-div > img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+.footer-logo-div > h3 {
+  font-size: 2.3rem;
+  margin-left: 1rem;
+  margin-top: -0.1rem;
+}
+
+.quick-link {
+  width: 20%;
+}
+
+.resources {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(128, 185, 232);
+}
+
+.copyright-div {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: 1.3rem;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
+}
+.softcode {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 35rem;
+  color: white;
+}

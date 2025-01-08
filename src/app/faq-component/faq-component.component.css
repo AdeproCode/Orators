@@ -1,0 +1,43 @@
+.faq-component-main {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 6rem;
+}
+
+.faq-component {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+}
+
+.faq-intro {
+  font-size: 1.8rem;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.faq {
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+  padding-right: 15rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+/* .span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+} */
