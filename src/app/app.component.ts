@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ChannelsComponent } from './channels/channels.component';
+import { FooterComponent } from './footer/footer.component';
+import { RouterModule, RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent, ChannelsComponent],
+  imports: [RouterModule, NavbarComponent, FooterComponent, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css', 
 })
+  
+  
 export class AppComponent {
-  title = 'orators';
+  title = 'bhs';
 }

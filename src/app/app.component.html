@@ -1,5 +1,16 @@
-<header><app-navbar /></header>
-<body>
-  <app-channels />
-</body>
-<footer></footer>
+<app-navbar
+  [image]="'assets/bhs logo.png'"
+  [link]="'/'"
+  [about]="'about'"
+  [programs]="'programs'"
+  [contact]="'contact'"
+  [register]="'register'"
+  [homePage]="'Home'"
+  [aboutPage]="'About Us'"
+  [programsPage]="'Programs'"
+  [contactPage]="'Contact Us'"
+  [login]="'Login'"
+/>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>

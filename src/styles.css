@@ -7,9 +7,16 @@ html {
 }
 
 body {
-  background-color: #d9e5ed;
+  background-color: white;
   color: black;
   margin: 0;
   padding: 0;
   height: 100%;
+}
+.hide-navbar app-navbar {
+  display: none;
+}
+
+.hide-navbar app-footer {
+  display: none;
 }

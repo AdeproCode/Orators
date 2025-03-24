@@ -1,0 +1,22 @@
+<div class="container-main">
+  <div class="container-con">
+    <img [src]="image" [routerLink]="'home'" routerLinkActive="active" alt="" />
+    <div class="nav-link">
+      <a [routerLink]="dashboard" routerLinkActive="active">{{ homePage }}</a>
+      <a [routerLink]="studentlist" routerLinkActive="active">{{
+        studentlistPage
+      }}</a>
+      <a [routerLink]="programs" routerLinkActive="active">{{
+        programsPage
+      }}</a>
+      <a [routerLink]="'studentForm'" routerLinkActive="active">{{
+        studentFormPage
+      }}</a>
+    </div>
+
+    <div class="frame">
+      <i class="fa fa-search"></i>
+      <button routerLink="dashboard" class="nav-btn">{{ login }}</button>
+    </div>
+  </div>
+</div>
